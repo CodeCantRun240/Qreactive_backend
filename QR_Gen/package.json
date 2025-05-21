@@ -7,7 +7,8 @@
     "build": "babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/routes/index.js",
-    "postinstall": "mv ./src/models/User.js ./src/models/user.js"
+    "postinstall": "mv ./src/models/User.js ./src/models/user.js && mv ./src/models/Session.js ./src/models/session.js"
+
   },
   "author": "",
   "license": "ISC",
